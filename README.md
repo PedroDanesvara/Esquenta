@@ -1,2 +1,2 @@
-# Aplicativo-Para-Coleta-Seletiva-Projeto-de-Extensao
-Repositório para organização do desenvolvimento do aplicativo
+# Esquenta
+Repositório para organização do que for desenvolvido no esquenta
