@@ -1,3 +1,9 @@
 from django.contrib import admin
+from produtor.models import Pessoa
+from coletor.models import Coletor
+from coleta.models import Oferta
 
-# Register your models here.
+
+admin.site.register(Pessoa)
+admin.site.register(Coletor)
+admin.site.register(Oferta)

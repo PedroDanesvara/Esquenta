@@ -1,3 +1,5 @@
 from django.db import models
+from produtor.models import Pessoa
 
-# Create your models here.
+class Coletor(Pessoa):
+    n_coletas = models.IntegerField(help_text='Número de Coletas')
