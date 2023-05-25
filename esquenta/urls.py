@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from coleta.views import listar
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('coleta/ofertas', listar )
 ]
