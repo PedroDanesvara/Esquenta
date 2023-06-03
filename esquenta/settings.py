@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'produtor',
     'coletor',
     'coleta',
+    'usuarios',
 ]
 
 MIDDLEWARE = [
