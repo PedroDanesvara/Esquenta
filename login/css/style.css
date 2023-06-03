@@ -63,6 +63,7 @@ body{
     font-weight: bold;
     width: 191px;
     align-self: center;
+    border: none;
 }
 .btn-primary{
     background-color: transparent;
