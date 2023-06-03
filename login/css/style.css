@@ -61,6 +61,8 @@ body{
     padding: 10px 50px;
     cursor: pointer;
     font-weight: bold;
+    width: 191px;
+    align-self: center;
 }
 .btn-primary{
     background-color: transparent;
