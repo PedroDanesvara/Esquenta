@@ -1,0 +1,1 @@
+web: gunicorn esquenta.wsgi --log-file -
