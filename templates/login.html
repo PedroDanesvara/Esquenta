@@ -21,7 +21,9 @@
                     <div class="second-column">
                         <h2 class="title title-second">Crie sua conta</h2>   
 
-                        <form class="form" action="{% url 'cadastro' %}" method="POST">{% csrf_token %}
+                        <form class="form" action="{% url 'autenticacao' %}" method="POST">{% csrf_token %}
+                            <input  type="hidden" name="action" value="cadastro">
+
                             <label class="label-input" for="">                            
                                 <input type="text" placeholder="nome" name="nome">
                             </label>
@@ -59,7 +61,9 @@
                     <div class="second-column">
                         <h2 class="title title-second">Entre</h2>                    
                         <p class="description description-second">Entre com seu usuário e senha</p>
-                        <form class="form" action="{% url 'login' %}" method="POST">{% csrf_token %}
+                        <form class="form" action="{% url 'autenticacao' %}" method="POST">{% csrf_token %}
+                            <input  type="hidden" name="action" value="login">
+
                             <label class="label-input" for="">
                                 <input type="text" placeholder="Usuário" name="username">
                             </label>                        
